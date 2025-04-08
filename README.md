@@ -1,4 +1,17 @@
 # A simple MERN stack application 
 
-This is a simple 3 tier ariceture where frontend and backend and database is connected i clone this repositry from other resource and written the docker file for both front end and backend and write the docker compose file where i written the connected the both frontend and backend once i created i run this command: docker compose up -d which i run in the dettach mode and run this link in google http://localhost:5173/  you will see the output this like ![image](https://github.com/user-attachments/assets/6186b6e4-be0e-4d96-823b-fabe300f181c) 
+This is a simple 3-tier architecture where the frontend, backend, and database are connected.I cloned this repository from another resource and wrote the Dockerfiles for both frontend and backend.
+I also wrote a Docker Compose file to connect the frontend, backend, and database.Once everything was set up, I ran the following command:
+
+docker compose up -d
+
+which runs the containers in detached mode.
+
+After running the command, I opened this link in my browser:
+
+http://localhost:5173/
+
+You will see the output like this.
+
+![image](https://github.com/user-attachments/assets/6186b6e4-be0e-4d96-823b-fabe300f181c) 
 
