@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # A simple MERN stack application 
 
 ### Create a network for the docker containers
@@ -38,3 +39,7 @@ docker build -t mern-backend .
 
 `docker compose up -d`
 
+=======
+# docker_project
+This project is about connecting front and backend and database layer and test the code
+>>>>>>> 0fc85e2c576b1d3402e2eb5b087403e75421781c
