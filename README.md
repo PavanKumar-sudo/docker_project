@@ -1,45 +1,4 @@
-<<<<<<< HEAD
 # A simple MERN stack application 
 
-### Create a network for the docker containers
+This is a simple 3 tier ariceture where frontend and backend and database is connected i clone this repositry from other resource and written the docker file for both front end and backend and write the docker compose file where i written the connected the both frontend and backend once i created i run this command: docker compose up -d which i run in the dettach mode and run this link in google http://localhost:5173/  you will see the output this like ![image](https://github.com/user-attachments/assets/6186b6e4-be0e-4d96-823b-fabe300f181c) 
 
-`docker network create demo`
-
-### Build the client 
-
-```sh
-cd mern/frontend
-docker build -t mern-frontend .
-```
-
-### Run the client
-
-`docker run --name=frontend --network=demo -d -p 5173:5173 mern-frontend`
-
-### Verify the client is running
-
-Open your browser and type `http://localhost:5173`
-
-### Run the mongodb container
-
-`docker run --network=demo --name mongodb -d -p 27017:27017 -v ~/opt/data:/data/db mongodb:latest`
-
-### Build the server
-
-```sh
-cd mern/backend
-docker build -t mern-backend .
-```
-
-### Run the server
-
-`docker run --name=backend --network=demo -d -p 5050:5050 mern-backend`
-
-## Using Docker Compose
-
-`docker compose up -d`
-
-=======
-# docker_project
-This project is about connecting front and backend and database layer and test the code
->>>>>>> 0fc85e2c576b1d3402e2eb5b087403e75421781c
